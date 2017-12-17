@@ -3,6 +3,8 @@
  * Copyright (c) UranCompany. All rights reserved.
  */
 
+import UIKit
+
 extension SMTriangle {
 // MARK: - Preparetion
   

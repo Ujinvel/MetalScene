@@ -3,6 +3,8 @@
  * Copyright (c) UranCompany. All rights reserved.
  */
 
+import UIKit
+
 extension SMDrawingLayer {
   //*** Refresh drawing area in real time
   public func refreshScene(newDrawableFrame: CGRect) {
@@ -12,7 +14,7 @@ extension SMDrawingLayer {
   }
   //-----------------------------------------------------------------------------------
   
-  func processData(inputData: SPlanData, success: @escaping ((SError) -> Void)) -> Bool {
+  @discardableResult func processData(inputData: SPlanData, success: @escaping ((SError) -> Void)) -> Bool {
     guard self.polygonsToDraw == nil || (self.polygonsToDraw != nil && !self.polygonsToDraw.isDataProcessing) else { return false }
     
     self.inputData = inputData

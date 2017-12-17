@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		085A0F911FE6C8FB005E35AA /* SMCompassLocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F591FE6C8FB005E35AA /* SMCompassLocationDelegate.swift */; };
+		085A0F921FE6C8FB005E35AA /* SMCompassRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F5A1FE6C8FB005E35AA /* SMCompassRotation.swift */; };
+		085A0F931FE6C8FB005E35AA /* Array+Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F5C1FE6C8FB005E35AA /* Array+Global.swift */; };
+		085A0F941FE6C8FB005E35AA /* CGFloat+Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F5D1FE6C8FB005E35AA /* CGFloat+Global.swift */; };
+		085A0F951FE6C8FB005E35AA /* CLLocation+Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F5E1FE6C8FB005E35AA /* CLLocation+Global.swift */; };
+		085A0F961FE6C8FB005E35AA /* SMLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F601FE6C8FB005E35AA /* SMLook.swift */; };
+		085A0F971FE6C8FB005E35AA /* SMUserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F611FE6C8FB005E35AA /* SMUserLocation.swift */; };
+		085A0F981FE6C8FB005E35AA /* SMContour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F641FE6C8FB005E35AA /* SMContour.swift */; };
+		085A0F991FE6C8FB005E35AA /* SMGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F651FE6C8FB005E35AA /* SMGrid.swift */; };
+		085A0F9A1FE6C8FB005E35AA /* SMTringulate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F661FE6C8FB005E35AA /* SMTringulate.swift */; };
+		085A0F9B1FE6C8FB005E35AA /* SPlanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F681FE6C8FB005E35AA /* SPlanData.swift */; };
+		085A0F9C1FE6C8FB005E35AA /* SVector2d.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F691FE6C8FB005E35AA /* SVector2d.swift */; };
+		085A0F9D1FE6C8FB005E35AA /* SVertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F6A1FE6C8FB005E35AA /* SVertex.swift */; };
+		085A0F9E1FE6C8FB005E35AA /* SVertexesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F6B1FE6C8FB005E35AA /* SVertexesData.swift */; };
+		085A0F9F1FE6C8FB005E35AA /* SMNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F6D1FE6C8FB005E35AA /* SMNode.swift */; };
+		085A0FA01FE6C8FB005E35AA /* SMTriangle+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F6E1FE6C8FB005E35AA /* SMTriangle+Colors.swift */; };
+		085A0FA11FE6C8FB005E35AA /* SMTriangle+Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F6F1FE6C8FB005E35AA /* SMTriangle+Text.swift */; };
+		085A0FA21FE6C8FB005E35AA /* SMTriangle+UserPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F701FE6C8FB005E35AA /* SMTriangle+UserPosition.swift */; };
+		085A0FA31FE6C8FB005E35AA /* SMTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F711FE6C8FB005E35AA /* SMTriangle.swift */; };
+		085A0FA41FE6C8FB005E35AA /* SMFontAtlas.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F751FE6C8FB005E35AA /* SMFontAtlas.m */; };
+		085A0FA51FE6C8FB005E35AA /* SMFontAtlasBuild.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F771FE6C8FB005E35AA /* SMFontAtlasBuild.m */; };
+		085A0FA61FE6C8FB005E35AA /* SMGlyphDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F791FE6C8FB005E35AA /* SMGlyphDescriptor.m */; };
+		085A0FA71FE6C8FB005E35AA /* SMMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F7B1FE6C8FB005E35AA /* SMMesh.m */; };
+		085A0FA81FE6C8FB005E35AA /* SMTextMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F7D1FE6C8FB005E35AA /* SMTextMesh.m */; };
+		085A0FA91FE6C8FB005E35AA /* SMTextRenderingConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F7F1FE6C8FB005E35AA /* SMTextRenderingConstants.m */; };
+		085A0FAA1FE6C8FB005E35AA /* SMVectorTextMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F811FE6C8FB005E35AA /* SMVectorTextMesh.m */; };
+		085A0FAB1FE6C8FB005E35AA /* SMShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F831FE6C8FB005E35AA /* SMShaders.metal */; };
+		085A0FAC1FE6C8FB005E35AA /* SMConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F841FE6C8FB005E35AA /* SMConstants.swift */; };
+		085A0FAD1FE6C8FB005E35AA /* SMDarawingLayer+Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F851FE6C8FB005E35AA /* SMDarawingLayer+Rotation.swift */; };
+		085A0FAE1FE6C8FB005E35AA /* SMDrawingLayer+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F861FE6C8FB005E35AA /* SMDrawingLayer+Colors.swift */; };
+		085A0FAF1FE6C8FB005E35AA /* SMDrawingLayer+DataProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F871FE6C8FB005E35AA /* SMDrawingLayer+DataProcessing.swift */; };
+		085A0FB01FE6C8FB005E35AA /* SMDrawingLayer+Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F881FE6C8FB005E35AA /* SMDrawingLayer+Gesture.swift */; };
+		085A0FB11FE6C8FB005E35AA /* SMDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F891FE6C8FB005E35AA /* SMDrawingLayer.swift */; };
+		085A0FB21FE6C8FB005E35AA /* SMError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F8A1FE6C8FB005E35AA /* SMError.swift */; };
+		085A0FB31FE6C8FB005E35AA /* SMViewHierarchyPreparing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F8C1FE6C8FB005E35AA /* SMViewHierarchyPreparing.swift */; };
+		085A0FB41FE6C8FB005E35AA /* SMDrawingLayer+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F8E1FE6C8FB005E35AA /* SMDrawingLayer+UIScrollViewDelegate.swift */; };
+		085A0FB61FE6C8FB005E35AA /* SMDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F901FE6C8FB005E35AA /* SMDrawingView.swift */; };
+		6E2949471FE406D000BCCD26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2949461FE406D000BCCD26 /* AppDelegate.swift */; };
+		6E2949491FE406D000BCCD26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2949481FE406D000BCCD26 /* ViewController.swift */; };
+		6E29494C1FE406D000BCCD26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E29494A1FE406D000BCCD26 /* Main.storyboard */; };
+		6E29494E1FE406D000BCCD26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E29494D1FE406D000BCCD26 /* Assets.xcassets */; };
+		6E2949511FE406D000BCCD26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E29494F1FE406D000BCCD26 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EDBCBBB1FE42AEC005C6791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EDBCBB71FE42AEC005C6791 /* IndoorPlanSceneMetal.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6E07C47A1FCC645F0063CBF6;
+			remoteInfo = IndoorPlanSceneMetal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		085A0F591FE6C8FB005E35AA /* SMCompassLocationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMCompassLocationDelegate.swift; sourceTree = "<group>"; };
+		085A0F5A1FE6C8FB005E35AA /* SMCompassRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMCompassRotation.swift; sourceTree = "<group>"; };
+		085A0F5C1FE6C8FB005E35AA /* Array+Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Global.swift"; sourceTree = "<group>"; };
+		085A0F5D1FE6C8FB005E35AA /* CGFloat+Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Global.swift"; sourceTree = "<group>"; };
+		085A0F5E1FE6C8FB005E35AA /* CLLocation+Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Global.swift"; sourceTree = "<group>"; };
+		085A0F601FE6C8FB005E35AA /* SMLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMLook.swift; sourceTree = "<group>"; };
+		085A0F611FE6C8FB005E35AA /* SMUserLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMUserLocation.swift; sourceTree = "<group>"; };
+		085A0F641FE6C8FB005E35AA /* SMContour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMContour.swift; sourceTree = "<group>"; };
+		085A0F651FE6C8FB005E35AA /* SMGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMGrid.swift; sourceTree = "<group>"; };
+		085A0F661FE6C8FB005E35AA /* SMTringulate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMTringulate.swift; sourceTree = "<group>"; };
+		085A0F681FE6C8FB005E35AA /* SPlanData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPlanData.swift; sourceTree = "<group>"; };
+		085A0F691FE6C8FB005E35AA /* SVector2d.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVector2d.swift; sourceTree = "<group>"; };
+		085A0F6A1FE6C8FB005E35AA /* SVertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVertex.swift; sourceTree = "<group>"; };
+		085A0F6B1FE6C8FB005E35AA /* SVertexesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVertexesData.swift; sourceTree = "<group>"; };
+		085A0F6D1FE6C8FB005E35AA /* SMNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMNode.swift; sourceTree = "<group>"; };
+		085A0F6E1FE6C8FB005E35AA /* SMTriangle+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SMTriangle+Colors.swift"; path = "MetalTestScene/SMDrawing/PlanSceneMetal/Metal components/Node/SMTriangle+Colors.swift"; sourceTree = SOURCE_ROOT; };
+		085A0F6F1FE6C8FB005E35AA /* SMTriangle+Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMTriangle+Text.swift"; sourceTree = "<group>"; };
+		085A0F701FE6C8FB005E35AA /* SMTriangle+UserPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMTriangle+UserPosition.swift"; sourceTree = "<group>"; };
+		085A0F711FE6C8FB005E35AA /* SMTriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMTriangle.swift; sourceTree = "<group>"; };
+		085A0F731FE6C8FB005E35AA /* IndoorPlanSceneMetal-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IndoorPlanSceneMetal-Bridging-Header.h"; sourceTree = "<group>"; };
+		085A0F741FE6C8FB005E35AA /* SMFontAtlas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFontAtlas.h; sourceTree = "<group>"; };
+		085A0F751FE6C8FB005E35AA /* SMFontAtlas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMFontAtlas.m; sourceTree = "<group>"; };
+		085A0F761FE6C8FB005E35AA /* SMFontAtlasBuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFontAtlasBuild.h; sourceTree = "<group>"; };
+		085A0F771FE6C8FB005E35AA /* SMFontAtlasBuild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMFontAtlasBuild.m; sourceTree = "<group>"; };
+		085A0F781FE6C8FB005E35AA /* SMGlyphDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMGlyphDescriptor.h; sourceTree = "<group>"; };
+		085A0F791FE6C8FB005E35AA /* SMGlyphDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMGlyphDescriptor.m; sourceTree = "<group>"; };
+		085A0F7A1FE6C8FB005E35AA /* SMMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMesh.h; sourceTree = "<group>"; };
+		085A0F7B1FE6C8FB005E35AA /* SMMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMesh.m; sourceTree = "<group>"; };
+		085A0F7C1FE6C8FB005E35AA /* SMTextMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTextMesh.h; sourceTree = "<group>"; };
+		085A0F7D1FE6C8FB005E35AA /* SMTextMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTextMesh.m; sourceTree = "<group>"; };
+		085A0F7E1FE6C8FB005E35AA /* SMTextRenderingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTextRenderingConstants.h; sourceTree = "<group>"; };
+		085A0F7F1FE6C8FB005E35AA /* SMTextRenderingConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTextRenderingConstants.m; sourceTree = "<group>"; };
+		085A0F801FE6C8FB005E35AA /* SMVectorTextMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMVectorTextMesh.h; sourceTree = "<group>"; };
+		085A0F811FE6C8FB005E35AA /* SMVectorTextMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMVectorTextMesh.m; sourceTree = "<group>"; };
+		085A0F831FE6C8FB005E35AA /* SMShaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = SMShaders.metal; sourceTree = "<group>"; };
+		085A0F841FE6C8FB005E35AA /* SMConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMConstants.swift; sourceTree = "<group>"; };
+		085A0F851FE6C8FB005E35AA /* SMDarawingLayer+Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMDarawingLayer+Rotation.swift"; sourceTree = "<group>"; };
+		085A0F861FE6C8FB005E35AA /* SMDrawingLayer+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMDrawingLayer+Colors.swift"; sourceTree = "<group>"; };
+		085A0F871FE6C8FB005E35AA /* SMDrawingLayer+DataProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMDrawingLayer+DataProcessing.swift"; sourceTree = "<group>"; };
+		085A0F881FE6C8FB005E35AA /* SMDrawingLayer+Gesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMDrawingLayer+Gesture.swift"; sourceTree = "<group>"; };
+		085A0F891FE6C8FB005E35AA /* SMDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMDrawingLayer.swift; sourceTree = "<group>"; };
+		085A0F8A1FE6C8FB005E35AA /* SMError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMError.swift; sourceTree = "<group>"; };
+		085A0F8C1FE6C8FB005E35AA /* SMViewHierarchyPreparing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMViewHierarchyPreparing.swift; sourceTree = "<group>"; };
+		085A0F8E1FE6C8FB005E35AA /* SMDrawingLayer+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMDrawingLayer+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		085A0F901FE6C8FB005E35AA /* SMDrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMDrawingView.swift; sourceTree = "<group>"; };
+		6E2949431FE406D000BCCD26 /* MetalTestScene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalTestScene.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2949461FE406D000BCCD26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E2949481FE406D000BCCD26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E29494B1FE406D000BCCD26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E29494D1FE406D000BCCD26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E2949501FE406D000BCCD26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E2949521FE406D000BCCD26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EDBCBB71FE42AEC005C6791 /* IndoorPlanSceneMetal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IndoorPlanSceneMetal.xcodeproj; path = ../IndoorPlanSceneMetal/IndoorPlanSceneMetal.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E2949401FE406D000BCCD26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		085A0F561FE6C8FB005E35AA /* SMDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				085A0F571FE6C8FB005E35AA /* PlanSceneMetal */,
+				085A0F901FE6C8FB005E35AA /* SMDrawingView.swift */,
+			);
+			path = SMDrawing;
+			sourceTree = "<group>";
+		};
+		085A0F571FE6C8FB005E35AA /* PlanSceneMetal */ = {
+			isa = PBXGroup;
+			children = (
+				085A0F581FE6C8FB005E35AA /* Compass rotation */,
+				085A0F5B1FE6C8FB005E35AA /* Extensions */,
+				085A0F5F1FE6C8FB005E35AA /* Location */,
+				085A0F621FE6C8FB005E35AA /* Metal components */,
+				085A0F841FE6C8FB005E35AA /* SMConstants.swift */,
+				085A0F851FE6C8FB005E35AA /* SMDarawingLayer+Rotation.swift */,
+				085A0F861FE6C8FB005E35AA /* SMDrawingLayer+Colors.swift */,
+				085A0F871FE6C8FB005E35AA /* SMDrawingLayer+DataProcessing.swift */,
+				085A0F881FE6C8FB005E35AA /* SMDrawingLayer+Gesture.swift */,
+				085A0F891FE6C8FB005E35AA /* SMDrawingLayer.swift */,
+				085A0F8A1FE6C8FB005E35AA /* SMError.swift */,
+				085A0F8B1FE6C8FB005E35AA /* ViewPreparing */,
+				085A0F8D1FE6C8FB005E35AA /* Zoom and rotation */,
+			);
+			path = PlanSceneMetal;
+			sourceTree = "<group>";
+		};
+		085A0F581FE6C8FB005E35AA /* Compass rotation */ = {
+			isa = PBXGroup;
+			children = (
+				085A0F591FE6C8FB005E35AA /* SMCompassLocationDelegate.swift */,
+				085A0F5A1FE6C8FB005E35AA /* SMCompassRotation.swift */,
+			);
+			path = "Compass rotation";
+			sourceTree = "<group>";
+		};
+		085A0F5B1FE6C8FB005E35AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				085A0F5C1FE6C8FB005E35AA /* Array+Global.swift */,
+				085A0F5D1FE6C8FB005E35AA /* CGFloat+Global.swift */,
+				085A0F5E1FE6C8FB005E35AA /* CLLocation+Global.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		085A0F5F1FE6C8FB005E35AA /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				085A0F601FE6C8FB005E35AA /* SMLook.swift */,
+				085A0F611FE6C8FB005E35AA /* SMUserLocation.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		085A0F621FE6C8FB005E35AA /* Metal components */ = {
+			isa = PBXGroup;
+			children = (
+				085A0F631FE6C8FB005E35AA /* Algorithms */,
+				085A0F671FE6C8FB005E35AA /* DataStruct */,
+				085A0F6C1FE6C8FB005E35AA /* Node */,
+				085A0F821FE6C8FB005E35AA /* Shaders */,
+			);
+			path = "Metal components";
+			sourceTree = "<group>";
+		};
+		085A0F631FE6C8FB005E35AA /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				085A0F641FE6C8FB005E35AA /* SMContour.swift */,
+				085A0F651FE6C8FB005E35AA /* SMGrid.swift */,
+				085A0F661FE6C8FB005E35AA /* SMTringulate.swift */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		085A0F671FE6C8FB005E35AA /* DataStruct */ = {
+			isa = PBXGroup;
+			children = (
+				085A0F681FE6C8FB005E35AA /* SPlanData.swift */,
+				085A0F691FE6C8FB005E35AA /* SVector2d.swift */,
+				085A0F6A1FE6C8FB005E35AA /* SVertex.swift */,
+				085A0F6B1FE6C8FB005E35AA /* SVertexesData.swift */,
+			);
+			path = DataStruct;
+			sourceTree = "<group>";
+		};
+		085A0F6C1FE6C8FB005E35AA /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				085A0F6D1FE6C8FB005E35AA /* SMNode.swift */,
+				085A0F6E1FE6C8FB005E35AA /* SMTriangle+Colors.swift */,
+				085A0F6F1FE6C8FB005E35AA /* SMTriangle+Text.swift */,
+				085A0F701FE6C8FB005E35AA /* SMTriangle+UserPosition.swift */,
+				085A0F711FE6C8FB005E35AA /* SMTriangle.swift */,
+				085A0F721FE6C8FB005E35AA /* Text */,
+			);
+			path = Node;
+			sourceTree = "<group>";
+		};
+		085A0F721FE6C8FB005E35AA /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				085A0F731FE6C8FB005E35AA /* IndoorPlanSceneMetal-Bridging-Header.h */,
+				085A0F741FE6C8FB005E35AA /* SMFontAtlas.h */,
+				085A0F751FE6C8FB005E35AA /* SMFontAtlas.m */,
+				085A0F761FE6C8FB005E35AA /* SMFontAtlasBuild.h */,
+				085A0F771FE6C8FB005E35AA /* SMFontAtlasBuild.m */,
+				085A0F781FE6C8FB005E35AA /* SMGlyphDescriptor.h */,
+				085A0F791FE6C8FB005E35AA /* SMGlyphDescriptor.m */,
+				085A0F7A1FE6C8FB005E35AA /* SMMesh.h */,
+				085A0F7B1FE6C8FB005E35AA /* SMMesh.m */,
+				085A0F7C1FE6C8FB005E35AA /* SMTextMesh.h */,
+				085A0F7D1FE6C8FB005E35AA /* SMTextMesh.m */,
+				085A0F7E1FE6C8FB005E35AA /* SMTextRenderingConstants.h */,
+				085A0F7F1FE6C8FB005E35AA /* SMTextRenderingConstants.m */,
+				085A0F801FE6C8FB005E35AA /* SMVectorTextMesh.h */,
+				085A0F811FE6C8FB005E35AA /* SMVectorTextMesh.m */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		085A0F821FE6C8FB005E35AA /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				085A0F831FE6C8FB005E35AA /* SMShaders.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		085A0F8B1FE6C8FB005E35AA /* ViewPreparing */ = {
+			isa = PBXGroup;
+			children = (
+				085A0F8C1FE6C8FB005E35AA /* SMViewHierarchyPreparing.swift */,
+			);
+			path = ViewPreparing;
+			sourceTree = "<group>";
+		};
+		085A0F8D1FE6C8FB005E35AA /* Zoom and rotation */ = {
+			isa = PBXGroup;
+			children = (
+				085A0F8E1FE6C8FB005E35AA /* SMDrawingLayer+UIScrollViewDelegate.swift */,
+			);
+			path = "Zoom and rotation";
+			sourceTree = "<group>";
+		};
+		287EBEAA7CF8B0FFEE169E05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EDBCBB71FE42AEC005C6791 /* IndoorPlanSceneMetal.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E29493A1FE406D000BCCD26 = {
+			isa = PBXGroup;
+			children = (
+				6E2949451FE406D000BCCD26 /* MetalTestScene */,
+				6E2949441FE406D000BCCD26 /* Products */,
+				287EBEAA7CF8B0FFEE169E05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E2949441FE406D000BCCD26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E2949431FE406D000BCCD26 /* MetalTestScene.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E2949451FE406D000BCCD26 /* MetalTestScene */ = {
+			isa = PBXGroup;
+			children = (
+				6E2949461FE406D000BCCD26 /* AppDelegate.swift */,
+				6E2949481FE406D000BCCD26 /* ViewController.swift */,
+				085A0F561FE6C8FB005E35AA /* SMDrawing */,
+				6E29494A1FE406D000BCCD26 /* Main.storyboard */,
+				6E29494D1FE406D000BCCD26 /* Assets.xcassets */,
+				6E29494F1FE406D000BCCD26 /* LaunchScreen.storyboard */,
+				6E2949521FE406D000BCCD26 /* Info.plist */,
+			);
+			path = MetalTestScene;
+			sourceTree = "<group>";
+		};
+		6EDBCBB81FE42AEC005C6791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EDBCBBC1FE42AEC005C6791 /* IndoorPlanSceneMetal.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E2949421FE406D000BCCD26 /* MetalTestScene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E2949551FE406D000BCCD26 /* Build configuration list for PBXNativeTarget "MetalTestScene" */;
+			buildPhases = (
+				5FE01034E357AE105FC4A4F4 /* [CP] Check Pods Manifest.lock */,
+				6E29493F1FE406D000BCCD26 /* Sources */,
+				6E2949401FE406D000BCCD26 /* Frameworks */,
+				6E2949411FE406D000BCCD26 /* Resources */,
+				C3CA67C26AF1166583A7F8F4 /* [CP] Embed Pods Frameworks */,
+				7ED4B0649CE191BF74AE9CB7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalTestScene;
+			productName = MetalTestScene;
+			productReference = 6E2949431FE406D000BCCD26 /* MetalTestScene.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E29493B1FE406D000BCCD26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Евгений Величко";
+				TargetAttributes = {
+					6E2949421FE406D000BCCD26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6E29493E1FE406D000BCCD26 /* Build configuration list for PBXProject "MetalTestScene" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E29493A1FE406D000BCCD26;
+			productRefGroup = 6E2949441FE406D000BCCD26 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6EDBCBB81FE42AEC005C6791 /* Products */;
+					ProjectRef = 6EDBCBB71FE42AEC005C6791 /* IndoorPlanSceneMetal.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6E2949421FE406D000BCCD26 /* MetalTestScene */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6EDBCBBC1FE42AEC005C6791 /* IndoorPlanSceneMetal.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IndoorPlanSceneMetal.framework;
+			remoteRef = 6EDBCBBB1FE42AEC005C6791 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E2949411FE406D000BCCD26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2949511FE406D000BCCD26 /* LaunchScreen.storyboard in Resources */,
+				6E29494E1FE406D000BCCD26 /* Assets.xcassets in Resources */,
+				6E29494C1FE406D000BCCD26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FE01034E357AE105FC4A4F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+			showEnvVarsInLog = 0;
+		};
+		7ED4B0649CE191BF74AE9CB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+		C3CA67C26AF1166583A7F8F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E29493F1FE406D000BCCD26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085A0FA91FE6C8FB005E35AA /* SMTextRenderingConstants.m in Sources */,
+				085A0FA41FE6C8FB005E35AA /* SMFontAtlas.m in Sources */,
+				085A0FA81FE6C8FB005E35AA /* SMTextMesh.m in Sources */,
+				085A0FB41FE6C8FB005E35AA /* SMDrawingLayer+UIScrollViewDelegate.swift in Sources */,
+				085A0FAF1FE6C8FB005E35AA /* SMDrawingLayer+DataProcessing.swift in Sources */,
+				085A0F9A1FE6C8FB005E35AA /* SMTringulate.swift in Sources */,
+				085A0F9E1FE6C8FB005E35AA /* SVertexesData.swift in Sources */,
+				085A0FB01FE6C8FB005E35AA /* SMDrawingLayer+Gesture.swift in Sources */,
+				085A0FB11FE6C8FB005E35AA /* SMDrawingLayer.swift in Sources */,
+				085A0F971FE6C8FB005E35AA /* SMUserLocation.swift in Sources */,
+				085A0F921FE6C8FB005E35AA /* SMCompassRotation.swift in Sources */,
+				085A0F931FE6C8FB005E35AA /* Array+Global.swift in Sources */,
+				6E2949491FE406D000BCCD26 /* ViewController.swift in Sources */,
+				085A0F9B1FE6C8FB005E35AA /* SPlanData.swift in Sources */,
+				085A0FA71FE6C8FB005E35AA /* SMMesh.m in Sources */,
+				085A0FA11FE6C8FB005E35AA /* SMTriangle+Text.swift in Sources */,
+				085A0F981FE6C8FB005E35AA /* SMContour.swift in Sources */,
+				085A0FB31FE6C8FB005E35AA /* SMViewHierarchyPreparing.swift in Sources */,
+				085A0FAC1FE6C8FB005E35AA /* SMConstants.swift in Sources */,
+				085A0FA51FE6C8FB005E35AA /* SMFontAtlasBuild.m in Sources */,
+				085A0FAD1FE6C8FB005E35AA /* SMDarawingLayer+Rotation.swift in Sources */,
+				085A0FAA1FE6C8FB005E35AA /* SMVectorTextMesh.m in Sources */,
+				6E2949471FE406D000BCCD26 /* AppDelegate.swift in Sources */,
+				085A0F9F1FE6C8FB005E35AA /* SMNode.swift in Sources */,
+				085A0F9C1FE6C8FB005E35AA /* SVector2d.swift in Sources */,
+				085A0F961FE6C8FB005E35AA /* SMLook.swift in Sources */,
+				085A0F991FE6C8FB005E35AA /* SMGrid.swift in Sources */,
+				085A0FAB1FE6C8FB005E35AA /* SMShaders.metal in Sources */,
+				085A0FB21FE6C8FB005E35AA /* SMError.swift in Sources */,
+				085A0FA01FE6C8FB005E35AA /* SMTriangle+Colors.swift in Sources */,
+				085A0FA61FE6C8FB005E35AA /* SMGlyphDescriptor.m in Sources */,
+				085A0FA31FE6C8FB005E35AA /* SMTriangle.swift in Sources */,
+				085A0F9D1FE6C8FB005E35AA /* SVertex.swift in Sources */,
+				085A0F911FE6C8FB005E35AA /* SMCompassLocationDelegate.swift in Sources */,
+				085A0FAE1FE6C8FB005E35AA /* SMDrawingLayer+Colors.swift in Sources */,
+				085A0FA21FE6C8FB005E35AA /* SMTriangle+UserPosition.swift in Sources */,
+				085A0FB61FE6C8FB005E35AA /* SMDrawingView.swift in Sources */,
+				085A0F951FE6C8FB005E35AA /* CLLocation+Global.swift in Sources */,
+				085A0F941FE6C8FB005E35AA /* CGFloat+Global.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E29494A1FE406D000BCCD26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E29494B1FE406D000BCCD26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E29494F1FE406D000BCCD26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E2949501FE406D000BCCD26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E2949531FE406D000BCCD26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E2949541FE406D000BCCD26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E2949561FE406D000BCCD26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRJ2VR4X89;
+				INFOPLIST_FILE = MetalTestScene/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uran.com.MetalTestScene;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MetalTestScene/SMDrawing/PlanSceneMetal/Metal components/Node/Text/IndoorPlanSceneMetal-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E2949571FE406D000BCCD26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRJ2VR4X89;
+				INFOPLIST_FILE = MetalTestScene/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uran.com.MetalTestScene;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MetalTestScene/SMDrawing/PlanSceneMetal/Metal components/Node/Text/IndoorPlanSceneMetal-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E29493E1FE406D000BCCD26 /* Build configuration list for PBXProject "MetalTestScene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2949531FE406D000BCCD26 /* Debug */,
+				6E2949541FE406D000BCCD26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E2949551FE406D000BCCD26 /* Build configuration list for PBXNativeTarget "MetalTestScene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2949561FE406D000BCCD26 /* Debug */,
+				6E2949571FE406D000BCCD26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E29493B1FE406D000BCCD26 /* Project object */;
+}

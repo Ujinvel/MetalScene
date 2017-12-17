@@ -2,6 +2,7 @@
  * Created by Ujin Velichko.
  * Copyright (c) UranCompany. All rights reserved.
  */
+import UIKit
 
 extension SMDrawingLayer {
 // MARK: - Theme
