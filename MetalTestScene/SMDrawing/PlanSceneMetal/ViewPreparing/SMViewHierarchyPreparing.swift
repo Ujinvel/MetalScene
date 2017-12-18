@@ -12,11 +12,6 @@ import UIKit
 typealias ContainerViewHierarchy = (scrollView: UIScrollView,
                                     scrollContainerView: UIView,// The view that we will rotate is located on scrollView
                                     drawContainerView: UIView)// View that we will scales is located on scrollContainerView
-typealias LocationViewHierarchy  = (containerView: UIView,
-                                    lookView: UIView,// Located on containerView
-                                    realPositionView: UIView,// Located on containerView
-                                    locationMainView: UIView,// Located on containerView
-                                    locationCenterView: UIView)// Located on locationMainView
 
 class SMViewHierarchyPreparing {
   
@@ -27,7 +22,7 @@ class SMViewHierarchyPreparing {
                                              scrollContainerView: UIView(frame: CGRect(x: 0, y: 0, width: 0, height: 0)),
                                              drawContainerView: UIView(frame: CGRect(x: 0, y: 0, width: 0, height: 0)))
     
-    hierarchy.scrollView.isUserInteractionEnabled = false
+    hierarchy.scrollView.isUserInteractionEnabled = true
     
     // Scroll
     setupScroll(mainContainerView: mainContainerView, scrollView: hierarchy.scrollView)
@@ -41,7 +36,7 @@ class SMViewHierarchyPreparing {
   }
   //-----------------------------------------------------------------------------------
   
-  static private func setupScroll(mainContainerView: UIView, scrollView: UIScrollView) {
+  static private func setupScroll(mainContainerView: UIView, scrollView: UIView) {
     mainContainerView.addSubview(scrollView)
     
     scrollView.translatesAutoresizingMaskIntoConstraints = false

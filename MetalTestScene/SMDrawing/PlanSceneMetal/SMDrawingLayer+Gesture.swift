@@ -9,6 +9,7 @@ extension SMDrawingLayer {
   func setGestures() {
     let gesture = UIPinchGestureRecognizer(target: self, action: #selector(pinch(_:)))
     
+    
     containerViewHierarchy.scrollContainerView.addGestureRecognizer(gesture)
   }
   //-----------------------------------------------------------------------------------
