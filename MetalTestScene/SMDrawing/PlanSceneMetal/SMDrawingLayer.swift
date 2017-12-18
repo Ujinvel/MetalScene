@@ -151,7 +151,7 @@ class SMDrawingLayer: NSObject {
       pipelineStateDescriptor.vertexFunction   = defaultLibrary.makeFunction(name: cShaders.vertex)// Vertex Shader
       pipelineStateDescriptor.fragmentFunction = defaultLibrary.makeFunction(name: cShaders.fragment)// Fragment Shader
       
-      //pipelineStateDescriptor.depthAttachmentPixelFormat = .depth32Float
+      pipelineStateDescriptor.depthAttachmentPixelFormat = .depth32Float
       
       guard let colorElement = pipelineStateDescriptor.colorAttachments[0] else {
         throw SError(type: .renderPipelineColor, description: String(describing: cErrorType.getErrorDescription(.renderPipelineColor)))

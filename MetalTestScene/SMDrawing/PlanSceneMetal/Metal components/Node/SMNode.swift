@@ -131,7 +131,7 @@ class SMNode {
     let floatSize             = MemoryLayout<Float>.size
     let float4x4ByteAlignment = floatSize * 4
     let float4x4Size          = floatSize * float4x4ByteAlignment
-    let paddingBytesSize      = float4x4ByteAlignment - floatSize * 2 - floatSize * 2 - floatSize * 3
+    let paddingBytesSize      = float4x4ByteAlignment - floatSize * 2 - floatSize * 2 + floatSize * 3
     let uniformsStructSize    = float4x4Size + paddingBytesSize + floatSize * 2 + floatSize * 2 + floatSize * 3
     
     uniformBuffer = device.makeBuffer(length: uniformsStructSize, options: .storageModeShared)!
