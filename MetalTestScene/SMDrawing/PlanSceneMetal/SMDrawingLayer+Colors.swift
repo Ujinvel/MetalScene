@@ -31,14 +31,6 @@ extension SMDrawingLayer {
   func updateColors() {
     
     polygonsToDraw.refreshBuffers()
-    
-    guard inputData != nil else { return }
-    
-    let offset = SVertex.getOffset(drawLayerFrame: self.metalLayer.frame,
-                                   originalSize: CGSize(width: CGFloat(self.inputData!.originalWidth),
-                                                        height: CGFloat(self.inputData!.originalHeight)))
-    
-    userLocation.updateOffset(offset)
   }
   //-----------------------------------------------------------------------------------
   

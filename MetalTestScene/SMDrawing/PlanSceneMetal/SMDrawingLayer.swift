@@ -34,28 +34,12 @@ class SMDrawingLayer: NSObject {
   //private weak var drawableContainerView: MTKView?// View-container for rendering whis CAMetalLayer
   private var clearColor: MTLClearColor!// Background color fo drawing layer
   //*** Compass
-  var compass = SMCompassRotation()
+  //var compass = SMCompassRotation()
   //*** View hierarchy
   var containerViewHierarchy: ContainerViewHierarchy!
   
   var inputData: SPlanData?
   var containerView: ContainerViewHierarchy { get { return containerViewHierarchy } }
-  //*** User location
-  lazy var userLocation: SMUserLocation = { var offset = VertexOffset(scale: 0, x: 0, y: 0, originalSize: CGSize(width: 0, height: 0) )
-    
-                                            if inputData != nil {
-                                              offset = SVertex.getOffset(drawLayerFrame: self.metalLayer.frame,
-                                                                         originalSize: CGSize(width: CGFloat(self.inputData!.originalWidth),
-                                                                                              height: CGFloat(self.inputData!.originalHeight)))
-                                            }
-    
-                                            return SMUserLocation(drawableView: self.containerViewHierarchy.drawContainerView,
-                                                                  width: cMarkers.containerWidth * CGFloat(offset.scale),
-                                                                  height: cMarkers.containerHeight * CGFloat(offset.scale),
-                                                                  realPosRadius: cMarkers.realPosRadius * CGFloat(offset.scale),
-                                                                  locationContainerRadius: cMarkers.locationContainerRadius * CGFloat(offset.scale),
-                                                                  locationRadius: cMarkers.locationRadius * CGFloat(offset.scale),
-                                                                  startPoint: nil) }()
   
   // MARK: - Constructor
   
@@ -88,8 +72,6 @@ class SMDrawingLayer: NSObject {
     setupMetalLayer(view: baseContainerView)
     
     try setupPipeline()
-    
-    setupZoom()
   }
   //-----------------------------------------------------------------------------------
   

@@ -7,13 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		085A0F911FE6C8FB005E35AA /* SMCompassLocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F591FE6C8FB005E35AA /* SMCompassLocationDelegate.swift */; };
-		085A0F921FE6C8FB005E35AA /* SMCompassRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F5A1FE6C8FB005E35AA /* SMCompassRotation.swift */; };
 		085A0F931FE6C8FB005E35AA /* Array+Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F5C1FE6C8FB005E35AA /* Array+Global.swift */; };
 		085A0F941FE6C8FB005E35AA /* CGFloat+Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F5D1FE6C8FB005E35AA /* CGFloat+Global.swift */; };
-		085A0F951FE6C8FB005E35AA /* CLLocation+Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F5E1FE6C8FB005E35AA /* CLLocation+Global.swift */; };
-		085A0F961FE6C8FB005E35AA /* SMLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F601FE6C8FB005E35AA /* SMLook.swift */; };
-		085A0F971FE6C8FB005E35AA /* SMUserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F611FE6C8FB005E35AA /* SMUserLocation.swift */; };
 		085A0F981FE6C8FB005E35AA /* SMContour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F641FE6C8FB005E35AA /* SMContour.swift */; };
 		085A0F991FE6C8FB005E35AA /* SMGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F651FE6C8FB005E35AA /* SMGrid.swift */; };
 		085A0F9A1FE6C8FB005E35AA /* SMTringulate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F661FE6C8FB005E35AA /* SMTringulate.swift */; };
@@ -35,14 +30,12 @@
 		085A0FAA1FE6C8FB005E35AA /* SMVectorTextMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F811FE6C8FB005E35AA /* SMVectorTextMesh.m */; };
 		085A0FAB1FE6C8FB005E35AA /* SMShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F831FE6C8FB005E35AA /* SMShaders.metal */; };
 		085A0FAC1FE6C8FB005E35AA /* SMConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F841FE6C8FB005E35AA /* SMConstants.swift */; };
-		085A0FAD1FE6C8FB005E35AA /* SMDarawingLayer+Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F851FE6C8FB005E35AA /* SMDarawingLayer+Rotation.swift */; };
 		085A0FAE1FE6C8FB005E35AA /* SMDrawingLayer+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F861FE6C8FB005E35AA /* SMDrawingLayer+Colors.swift */; };
 		085A0FAF1FE6C8FB005E35AA /* SMDrawingLayer+DataProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F871FE6C8FB005E35AA /* SMDrawingLayer+DataProcessing.swift */; };
 		085A0FB01FE6C8FB005E35AA /* SMDrawingLayer+Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F881FE6C8FB005E35AA /* SMDrawingLayer+Gesture.swift */; };
 		085A0FB11FE6C8FB005E35AA /* SMDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F891FE6C8FB005E35AA /* SMDrawingLayer.swift */; };
 		085A0FB21FE6C8FB005E35AA /* SMError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F8A1FE6C8FB005E35AA /* SMError.swift */; };
 		085A0FB31FE6C8FB005E35AA /* SMViewHierarchyPreparing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F8C1FE6C8FB005E35AA /* SMViewHierarchyPreparing.swift */; };
-		085A0FB41FE6C8FB005E35AA /* SMDrawingLayer+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F8E1FE6C8FB005E35AA /* SMDrawingLayer+UIScrollViewDelegate.swift */; };
 		085A0FB61FE6C8FB005E35AA /* SMDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A0F901FE6C8FB005E35AA /* SMDrawingView.swift */; };
 		6E2949471FE406D000BCCD26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2949461FE406D000BCCD26 /* AppDelegate.swift */; };
 		6E2949491FE406D000BCCD26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2949481FE406D000BCCD26 /* ViewController.swift */; };
@@ -62,13 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		085A0F591FE6C8FB005E35AA /* SMCompassLocationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMCompassLocationDelegate.swift; sourceTree = "<group>"; };
-		085A0F5A1FE6C8FB005E35AA /* SMCompassRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMCompassRotation.swift; sourceTree = "<group>"; };
 		085A0F5C1FE6C8FB005E35AA /* Array+Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Global.swift"; sourceTree = "<group>"; };
 		085A0F5D1FE6C8FB005E35AA /* CGFloat+Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Global.swift"; sourceTree = "<group>"; };
-		085A0F5E1FE6C8FB005E35AA /* CLLocation+Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Global.swift"; sourceTree = "<group>"; };
-		085A0F601FE6C8FB005E35AA /* SMLook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMLook.swift; sourceTree = "<group>"; };
-		085A0F611FE6C8FB005E35AA /* SMUserLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMUserLocation.swift; sourceTree = "<group>"; };
 		085A0F641FE6C8FB005E35AA /* SMContour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMContour.swift; sourceTree = "<group>"; };
 		085A0F651FE6C8FB005E35AA /* SMGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMGrid.swift; sourceTree = "<group>"; };
 		085A0F661FE6C8FB005E35AA /* SMTringulate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMTringulate.swift; sourceTree = "<group>"; };
@@ -98,14 +86,12 @@
 		085A0F811FE6C8FB005E35AA /* SMVectorTextMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMVectorTextMesh.m; sourceTree = "<group>"; };
 		085A0F831FE6C8FB005E35AA /* SMShaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = SMShaders.metal; sourceTree = "<group>"; };
 		085A0F841FE6C8FB005E35AA /* SMConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMConstants.swift; sourceTree = "<group>"; };
-		085A0F851FE6C8FB005E35AA /* SMDarawingLayer+Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMDarawingLayer+Rotation.swift"; sourceTree = "<group>"; };
 		085A0F861FE6C8FB005E35AA /* SMDrawingLayer+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMDrawingLayer+Colors.swift"; sourceTree = "<group>"; };
 		085A0F871FE6C8FB005E35AA /* SMDrawingLayer+DataProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMDrawingLayer+DataProcessing.swift"; sourceTree = "<group>"; };
 		085A0F881FE6C8FB005E35AA /* SMDrawingLayer+Gesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMDrawingLayer+Gesture.swift"; sourceTree = "<group>"; };
 		085A0F891FE6C8FB005E35AA /* SMDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMDrawingLayer.swift; sourceTree = "<group>"; };
 		085A0F8A1FE6C8FB005E35AA /* SMError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMError.swift; sourceTree = "<group>"; };
 		085A0F8C1FE6C8FB005E35AA /* SMViewHierarchyPreparing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMViewHierarchyPreparing.swift; sourceTree = "<group>"; };
-		085A0F8E1FE6C8FB005E35AA /* SMDrawingLayer+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMDrawingLayer+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
 		085A0F901FE6C8FB005E35AA /* SMDrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMDrawingView.swift; sourceTree = "<group>"; };
 		6E2949431FE406D000BCCD26 /* MetalTestScene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalTestScene.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E2949461FE406D000BCCD26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -140,30 +126,17 @@
 		085A0F571FE6C8FB005E35AA /* PlanSceneMetal */ = {
 			isa = PBXGroup;
 			children = (
-				085A0F581FE6C8FB005E35AA /* Compass rotation */,
 				085A0F5B1FE6C8FB005E35AA /* Extensions */,
-				085A0F5F1FE6C8FB005E35AA /* Location */,
 				085A0F621FE6C8FB005E35AA /* Metal components */,
 				085A0F841FE6C8FB005E35AA /* SMConstants.swift */,
-				085A0F851FE6C8FB005E35AA /* SMDarawingLayer+Rotation.swift */,
 				085A0F861FE6C8FB005E35AA /* SMDrawingLayer+Colors.swift */,
 				085A0F871FE6C8FB005E35AA /* SMDrawingLayer+DataProcessing.swift */,
 				085A0F881FE6C8FB005E35AA /* SMDrawingLayer+Gesture.swift */,
 				085A0F891FE6C8FB005E35AA /* SMDrawingLayer.swift */,
 				085A0F8A1FE6C8FB005E35AA /* SMError.swift */,
 				085A0F8B1FE6C8FB005E35AA /* ViewPreparing */,
-				085A0F8D1FE6C8FB005E35AA /* Zoom and rotation */,
 			);
 			path = PlanSceneMetal;
-			sourceTree = "<group>";
-		};
-		085A0F581FE6C8FB005E35AA /* Compass rotation */ = {
-			isa = PBXGroup;
-			children = (
-				085A0F591FE6C8FB005E35AA /* SMCompassLocationDelegate.swift */,
-				085A0F5A1FE6C8FB005E35AA /* SMCompassRotation.swift */,
-			);
-			path = "Compass rotation";
 			sourceTree = "<group>";
 		};
 		085A0F5B1FE6C8FB005E35AA /* Extensions */ = {
@@ -171,18 +144,8 @@
 			children = (
 				085A0F5C1FE6C8FB005E35AA /* Array+Global.swift */,
 				085A0F5D1FE6C8FB005E35AA /* CGFloat+Global.swift */,
-				085A0F5E1FE6C8FB005E35AA /* CLLocation+Global.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		085A0F5F1FE6C8FB005E35AA /* Location */ = {
-			isa = PBXGroup;
-			children = (
-				085A0F601FE6C8FB005E35AA /* SMLook.swift */,
-				085A0F611FE6C8FB005E35AA /* SMUserLocation.swift */,
-			);
-			path = Location;
 			sourceTree = "<group>";
 		};
 		085A0F621FE6C8FB005E35AA /* Metal components */ = {
@@ -266,14 +229,6 @@
 				085A0F8C1FE6C8FB005E35AA /* SMViewHierarchyPreparing.swift */,
 			);
 			path = ViewPreparing;
-			sourceTree = "<group>";
-		};
-		085A0F8D1FE6C8FB005E35AA /* Zoom and rotation */ = {
-			isa = PBXGroup;
-			children = (
-				085A0F8E1FE6C8FB005E35AA /* SMDrawingLayer+UIScrollViewDelegate.swift */,
-			);
-			path = "Zoom and rotation";
 			sourceTree = "<group>";
 		};
 		287EBEAA7CF8B0FFEE169E05 /* Frameworks */ = {
@@ -467,14 +422,11 @@
 				085A0FA91FE6C8FB005E35AA /* SMTextRenderingConstants.m in Sources */,
 				085A0FA41FE6C8FB005E35AA /* SMFontAtlas.m in Sources */,
 				085A0FA81FE6C8FB005E35AA /* SMTextMesh.m in Sources */,
-				085A0FB41FE6C8FB005E35AA /* SMDrawingLayer+UIScrollViewDelegate.swift in Sources */,
 				085A0FAF1FE6C8FB005E35AA /* SMDrawingLayer+DataProcessing.swift in Sources */,
 				085A0F9A1FE6C8FB005E35AA /* SMTringulate.swift in Sources */,
 				085A0F9E1FE6C8FB005E35AA /* SVertexesData.swift in Sources */,
 				085A0FB01FE6C8FB005E35AA /* SMDrawingLayer+Gesture.swift in Sources */,
 				085A0FB11FE6C8FB005E35AA /* SMDrawingLayer.swift in Sources */,
-				085A0F971FE6C8FB005E35AA /* SMUserLocation.swift in Sources */,
-				085A0F921FE6C8FB005E35AA /* SMCompassRotation.swift in Sources */,
 				085A0F931FE6C8FB005E35AA /* Array+Global.swift in Sources */,
 				6E2949491FE406D000BCCD26 /* ViewController.swift in Sources */,
 				085A0F9B1FE6C8FB005E35AA /* SPlanData.swift in Sources */,
@@ -484,12 +436,10 @@
 				085A0FB31FE6C8FB005E35AA /* SMViewHierarchyPreparing.swift in Sources */,
 				085A0FAC1FE6C8FB005E35AA /* SMConstants.swift in Sources */,
 				085A0FA51FE6C8FB005E35AA /* SMFontAtlasBuild.m in Sources */,
-				085A0FAD1FE6C8FB005E35AA /* SMDarawingLayer+Rotation.swift in Sources */,
 				085A0FAA1FE6C8FB005E35AA /* SMVectorTextMesh.m in Sources */,
 				6E2949471FE406D000BCCD26 /* AppDelegate.swift in Sources */,
 				085A0F9F1FE6C8FB005E35AA /* SMNode.swift in Sources */,
 				085A0F9C1FE6C8FB005E35AA /* SVector2d.swift in Sources */,
-				085A0F961FE6C8FB005E35AA /* SMLook.swift in Sources */,
 				085A0F991FE6C8FB005E35AA /* SMGrid.swift in Sources */,
 				085A0FAB1FE6C8FB005E35AA /* SMShaders.metal in Sources */,
 				085A0FB21FE6C8FB005E35AA /* SMError.swift in Sources */,
@@ -497,11 +447,9 @@
 				085A0FA61FE6C8FB005E35AA /* SMGlyphDescriptor.m in Sources */,
 				085A0FA31FE6C8FB005E35AA /* SMTriangle.swift in Sources */,
 				085A0F9D1FE6C8FB005E35AA /* SVertex.swift in Sources */,
-				085A0F911FE6C8FB005E35AA /* SMCompassLocationDelegate.swift in Sources */,
 				085A0FAE1FE6C8FB005E35AA /* SMDrawingLayer+Colors.swift in Sources */,
 				085A0FA21FE6C8FB005E35AA /* SMTriangle+UserPosition.swift in Sources */,
 				085A0FB61FE6C8FB005E35AA /* SMDrawingView.swift in Sources */,
-				085A0F951FE6C8FB005E35AA /* CLLocation+Global.swift in Sources */,
 				085A0F941FE6C8FB005E35AA /* CGFloat+Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
